@@ -12,7 +12,7 @@ body {
 hr {
   max-width: 65px;
   border-width: 3px;
-  border-color: #F05F44; 
+  border-color: blue; 
 }
 
 .faded {
@@ -21,8 +21,8 @@ hr {
 
 header.startup {
   background-position: center;
-  background-image: url("monedero.jpg");
-  background-size: 500px 200px cover;
+  background-image: url("header.jpg");
+  background-size: cover;
   height: 100%;
 }
 
@@ -32,7 +32,7 @@ header.startup hr {
 }
 
 header.startup h1 {
-  font-size: 3rem;  
+  font-size: 2rem; 
 }
 
 .btn {
@@ -47,13 +47,13 @@ header.startup h1 {
 }
 
 .btn-primary {
-  background-color: #ee4b08;
-  border-color: #ee4b08; }
+  background-color: lightblue;
+  border-color: darkblue; }
 
 .btn-primary:hover {
-  background-color: #051CCC;
-  border-color: #ee4b08;
-  border-width: 7px;
+  background-color: blue;
+  border-color: blue;
+  border-width: 5px;
   cursor: pointer;
 }
   
